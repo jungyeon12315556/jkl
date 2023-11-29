@@ -1,0 +1,221 @@
+ <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+    $('.bxslider.cls000').bxSlider({
+        minSlides: 3,
+        maxSlides: 4,
+        slideWidth: 300,
+        slideMargin: 10
+      });
+
+      $('.bxslider.cls001').bxSlider({
+  nextSelector: '#slider-next',
+  prevSelector: '#slider-prev',
+  nextText: 'Onward →',
+  prevText: '← Go back'
+});
+    </script>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c2f1480a8b.js" crossorigin="anonymous"></script>
+    
+    <style>
+
+        #tema2, #tema3, #tema4{
+
+            margin: 0 auto;
+            width: 1200px;
+            overflow: hidden;
+            box-sizing: border-box;
+            margin-bottom: 100px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+        }
+      
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .cls000 {
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .sliderwrap{
+            box-sizing: border-box;
+            width: 1200px;
+        }
+        
+        .Rsliderimg{
+            width: 280px;
+            height: 170px;
+        }
+        .Rsliderspan {
+            color: purple;
+            font-size: 0.9em;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .Rsliderp {
+            width: 170px;
+            height: 60px;
+            font-size: 1em;
+        }
+        .Rsliderh5 {
+            font-size: 1em;
+            bottom: 10px;
+        }
+
+        .color {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    
+        .colorright {
+            margin-top: 100px;
+            width: 430px;
+        }
+
+        .leftimg {
+            width: 430px; 
+            height: 400px;
+            margin-top: 100px;
+        }
+        .right_img { 
+            width: 70px;
+            height: 70px;
+            margin-top: 10px;
+        }
+        .right_box1{
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .right_box2 a {
+            text-decoration: none;
+            color: #000;
+            font-size: 0.8em;
+        }
+        .right_box2 {
+            margin-top: 20px;
+        }
+
+        .circleul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .circleul li {
+            display: inline-block;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        .circleimg {
+            border-radius: 50%;
+            width: 190px;
+            height: 190px;
+            margin-top: 50px;
+        }
+        .bigcircle {
+            margin-top: -100px;
+            border-radius: 50%;
+            width: 300px; 
+            height: 300px;
+            position: relative;
+            float: left;
+        }
+
+        #tema5 { 
+            width:100%;
+            height: 700px;
+            margin: 0 auto;
+            background: skyblue;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+          
+        }
+        .tema5_ul{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            
+        }
+        .tema5h1 {
+            color: #fff;
+            margin-left: 350px;
+            padding-top: 45px;
+           
+        }
+        .tema5_h31 {
+            margin-top: -5px;
+            margin-left: 30px;
+            
+        }
+        .tema5_p {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .tema5_h32{
+            padding-top: 310px;
+            padding-left: 30px;
+        }
+
+        .tema5_h32{
+            margin: 0;
+            top: 300px;
+            display: inline-block;
+        }
+       
+        .tema5_div1{
+            background: #fff;
+            width: 447px;
+            height: 517px;
+        }
+        .tema5_video{
+            width: 380px; height: 210px;
+            margin: 50px 33.5px;
+
+        }
+        .tema5_div2{
+            width: 447px;
+            height: 517px;
+            background-image: url(hana/tema5.macau.jpg);
+            background-repeat: no-repeat; 
+            background-size: 100%;
+            color: #fff;
+    
+        }
+        .tema5_a {
+            display: inline-block;
+            padding-left: 30px;
+        }
+        .tema5_div3{
+            background: #fff;
+            width: 306px;
+            height: 517px;
+        }
+
+        .tema5_circle {
+            height: 220px;
+            width: 220px;
+            border-radius: 50%;
+            margin: 50px 43px;
+           
+        }
+
+        .tema5png {
+            width: 20px;
+            height: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>

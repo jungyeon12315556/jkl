@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+ul{
+
+    list-style : none;
+    margin: 0;
+    padding: 0;
+}
+.prod_li {
+
+    margin-bottom : 30px;
+   
+}
+.prod_ul {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 300px;
+}
+
+input[type="radio"]{
+    position: absolute;
+    left: -9999px;
+}
+
+.input_radio1, .input_radio2, .input_radio3 {
+    position: relative;
+    padding : 12px 15px;
+    background: rgba(0 , 0, 0, 0.5);
+    cursor: pointer;
+    transition :0.2s;
+    width: 20px;
+    height: 5px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.input_radio1:hover {
+    background: #fff;
+    opacity: 0.5;
+    color: #000;
+}
+.input_radio2:hover {
+    background: #fff;
+    opacity: 0.5;
+    color: #000;
+}
+.input_radio3:hover {
+    background: #fff;
+    opacity: 0.5;
+    color: #000;
+}
+#tema1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+   
+
+}
+#button1 {
+    width: 1200px;
+    height: 550px; 
+    background-image: url(JKLpick.png);
+    left: 0;
+
+ }
+.imgbox {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: -200px;
+    right: 20px;
+}
+
+.prod_ul > li >.box1 {
+    /* position: absolute; */
+    /* left: 250px; */
+    display: none;
+}
+
+.prod_img {
+    float: left;
+    width: 300px;
+    height: 200px;
+} 
+
+.tema1img {
+    width: 230px;
+    height: 250px;
+}
+
+.tema1_h1 {
+    bottom: 50px;
+}
+
+.tag {
+    display: block;
+    color: #f78133;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.itms_text {
+    color: rgb(146, 145, 145);
+    font-size: 0.8em;
+}
+
+.tema5_div2 {
+    background: url(macau-tower-1730548_1280.jpg);
+}
+/* input[type="radio"]:checked+.input_radio {
+    padding : 10px;
+}
+
+input[type="radio"]:checked~.imgbox3 {
+    display: block;
+} */

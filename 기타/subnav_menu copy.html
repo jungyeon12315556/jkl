@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.navbar {
+  overflow: hidden;
+  background: white;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: white;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: white;
+  width: 100%;
+  border-top: 1px solid black;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">베스트</a>
+  <div class="subnav">
+    <button class="subnavbtn">해외여행 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">해외여행 홈</a>
+      <a href="#team">동남아/대만/서남아</a>
+      <a href="#careers">일본</a>
+      <a href="#careers">유럽/아프리카</a>
+      <a href="#careers">중국/홍콩/몽골/중앙아시아</a>
+      <a href="#careers">괌/사이판/호주/뉴질랜드</a>
+      <a href="#careers">미주/하와이/캐나다</a>
+      <a href="#careers">지방출발</a>
+    </div>
+
+  <a href="#home">항공</a>
+
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">호텔 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">해외호텔</a>
+      <a href="#deliver">국내숙박</a>      
+    </div>
+  </div>
+
+  <div class="subnav">
+    <button class="subnavbtn">투어/입장권 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">투어/입장권 홈</a>
+      <a href="#link2">국내</a>
+      <a href="#link3">동남아/대만</a>
+      <a href="#link4">일본</a>
+      <a href="#link4">남태평양</a>
+      <a href="#link4">유럽/중동</a>
+      <a href="#link4">미주</a>
+      <a href="#link4">중화ㆍ몽골</a>
+      <a href="#link4">해외 렌터카</a>
+      <a href="#link4">제주도렌터카</a>
+    </div>
+  </div>
+
+  <div class="subnav">
+    <button class="subnavbtn">국내여행 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">제주여행</a>
+      <a href="#link2">내륙여행</a>
+      <a href="#link3">울릉도/섬</a>
+      <a href="#link4">내나라 여행</a>
+      <a href="#link4">국내골프</a>
+    </div>
+  </div>
+
+  <a href="#contact">골프</a>
+
+  <div class="subnav">
+    <button class="subnavbtn">테마여행 <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">허니문</a>
+      <a href="#link2">크루즈</a>
+      <a href="#link3">트레킹</a>
+      <a href="#link4">MICE</a>
+    </div>
+  </div>
+
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:0 16px">
+  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+</div>
+
+</body>
+</html>

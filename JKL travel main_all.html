@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JKL Travel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css(JKL)/JKL Travel style(통합).css">
+
+  <!-- 조선유님 파트 시작 ----------------------------------------------->
+
+  <link rel="stylesheet" href="css(JKL)/main.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <!-- 조선유님 파트 끝 ----------------------------------------------->
+
+  <!-- 김정연님 파트 시작 ----------------------------------------------->
+
+  <link rel="stylesheet" href="bxslider-4-master/dist/jquery.bxslider.css">
+  <link rel="stylesheet" href="css(JKL)/JKL Travel style(통합).css">
+
+
+  <!-- 김정연님 파트 끝 ----------------------------------------------->
+
+</head>
+
+<body>
+
+  <!------------------------------------------------- 헤더 시작 --------------------------------------------------------------------------->
+
+  <div id="header_line_1" class="header_line">
+
+    <div id="header_box_1" class="header_box">
+
+      <div id="logo_box">
+        <img src="image(JKL)/JKL로고.png" alt="">
+      </div>
+
+      <div id="search_box">
+        <form action="action.php">
+          <input type="search" placeholder="검색어를 입력해 주세요">
+        </form>
+      </div>
+
+      <div id="hot_text" class="search_box"><img src="image(JKL)/인기검색어.png" alt=""></div>
+
+      <div id="customer_box">
+
+        <div id="log_in" class="customer_box">로그인</div>
+        <div id="join" class="customer_box">회원가입</div>
+        <div id="customer_center" class="customer_box">고객센터</div>
+
+        <div id="my_menu" class="customer_box">
+          <div id="mm_pictogram">
+            <img src="image(JKL)/마이메뉴.png" alt="">
+          </div>
+          <div id="mm_text_box">마이메뉴</div>
+        </div>
+        <div id="reservation_details" class="customer_box">
+          <div id="rd_pictogram">
+            <img src="image(JKL)/예약내역.png" alt="">
+          </div>
+          <div id="rd_text_box">예약내역</div>
+        </div>
+        <div id="jjim" class="customer_box">
+          <div id="jj_pictogram">
+            <img src="image(JKL)/찜.png" alt="">
+          </div>
+          <div id="jj_text_box">찜</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="header_line_2" class="header_line">
+
+    <div class="navbar">
+      <a href="#total_menu">전체메뉴</a>
+      <a href="#home">베스트</a>
+      <div class="subnav">
+        <button class="subnavbtn">해외여행 <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#company">해외여행 홈</a>
+          <a href="#team">동남아/대만/서남아</a>
+          <a href="#careers">일본</a>
+          <a href="#careers">유럽/아프리카</a>
+          <a href="#careers">중국/홍콩/몽골/중앙아시아</a>
+          <a href="#careers">괌/사이판/호주/뉴질랜드</a>
+          <a href="#careers">미주/하와이/캐나다</a>
+          <a href="#careers">지방출발</a>
+        </div>
+
+        <a href="#home">항공</a>
+
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">호텔 <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#bring">해외호텔</a>
+          <a href="#deliver">국내숙박</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button class="subnavbtn">투어/입장권 <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">투어/입장권 홈</a>
+          <a href="#link2">국내</a>
+          <a href="#link3">동남아/대만</a>
+          <a href="#link4">일본</a>
+          <a href="#link4">남태평양</a>
+          <a href="#link4">유럽/중동</a>
+          <a href="#link4">미주</a>
+          <a href="#link4">중화ㆍ몽골</a>
+          <a href="#link4">해외 렌터카</a>
+          <a href="#link4">제주도렌터카</a>
+        </div>
+      </div>
+
+      <div class="subnav">
+        <button class="subnavbtn">국내여행 <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">제주여행</a>
+          <a href="#link2">내륙여행</a>
+          <a href="#link3">울릉도/섬</a>
+          <a href="#link4">내나라 여행</a>
+          <a href="#link4">국내골프</a>
+        </div>
+      </div>
+
+      <a href="#contact">골프</a>
+
+      <div class="subnav">
+        <button class="subnavbtn">테마여행 <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">허니문</a>
+          <a href="#link2">크루즈</a>
+          <a href="#link3">트레킹</a>
+          <a href="#link4">MICE</a>
+        </div>
+      </div>
+
+      <a href="#contact">여행기획전</a>
+
+      <a href="#contact">맞춤여행</a>
+
+      <a href="#contact">이달의 혜택</a>
+
+    </div>
+
+  </div>
+
+  <!------------------------------------------------- 헤더 끝 --------------------------------------------------------------------------->
+
+  <!-- 김정연님 파트 시작 ------------------------------------------>
+
+  <div class="bxslider">
+    <div><img src="image(jkl)/mainslider_one.png" /></div>
+    <div><img src="image(jkl)/mainslider_two.png" /></div>
+    <div><img src="image(jkl)/mainslider_3.png" /></div>
+    <div><img src="image(jkl)/mainslider_4.png" /></div>
+    <div><img src="image(jkl)/mainslider_5.png" /></div>
+    <div><img src="image(jkl)/mainslider_6.png" /></div>
+    <div><img src="image(jkl)/mainslider_7.png" /></div>
+  </div>
+  <script>
+
+    $('.bxslider').bxSlider({
+      auto: true,
+      autoControls: true
+    });
+
+    var slider = $('.bxslider').bxSlider({
+      mode: 'fade'
+    });
+
+    $('#slider-next').click(function () {
+      slider.goToNextSlide();
+      return false;
+    });
+
+    $('#slider-count').click(function () {
+      var count = slider.getSlideCount();
+      alert('Slide count: ' + count);
+      return false;
+    });
+
+  </Script>
+
+  <section id="section_one">
+    <h2>인기급상승! 화제의 여행지</h2>
+    <p> 영상 속에 봤던 그 여행지</p>
+    <div id="tool">
+      <div class="box1">
+        <img src="image(jkl)/box1.jpg" alt="">
+        <p class="box_tag">아나운서84의 홀로 라이프</p>
+        <p><span class="box_title">[출발확정] 이집트 일주 10일</span></p>
+        <p><span style="font-weight: 700;">4,599,000</span>원~</p>
+        <span class="hash">국내선 1회</span>
+        <span class="hash">모일수록 가격할인</span>
+      </div>
+      <div class="box2">
+        <img src="image(jkl)/box2.png" alt="">
+        <p class="box_tag">리뷰당한 해외알바 속 그 곳</p>
+        <p><span class="box_title">홍콩 자유여행 3일</span></p>
+        <p><span style="font-weight: 700;">559,000</span>원~</p>
+        <span class="hash">1만원 할인 쿠폰</span>
+      </div>
+      <div class="box3">
+        <img src="image(jkl)/box3.jpg" alt="">
+        <p class="box_tag">지면 독박쓰는 여행예능</p>
+        <p><span class="box_title">라오스 완전일주 5일</span></p>
+        <p><span style="font-weight: 700;">823,000</span>원~</p>
+        <span class="hash">최대 2만 5천원 할인 쿠폰</span>
+      </div>
+      <div class="box4">
+        <img src="image(jkl)/box4.png" alt="">
+        <p class="box_tag">유튜브'문명특급'</p>
+        <p><span class="box_title">[우리끼리]방콕 5일</span></p>
+        <p><span style="font-weight: 700;">1,129,000</span>원~</p>
+        <span class="hash">맛집예약해드림</span>
+        <span class="hash">1일 자유일정</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="section_three">
+    <h2>싱가포르/대만 주요 여행지</h2>
+    <p> 예약하면 바로 출발 가능한 여행지!</p>
+    <ul class="bxslider">
+      <li><img src="image(jkl)/box1_1.jpg" />
+        <p class="box_tag">#1일자유 #핵심일정 5일</p>
+        <p><span class="box_title">[가족과함께 싱가포르] NO쇼핑 #1일자유 #핵심일정 5일</span></p>
+        <p><span style="font-weight: 700;">1,599,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box2_1.jpg" />
+        <p class="box_tag">#하루자유 #4인출발</p>
+        <p><span class="box_title">[마리나베이샌즈]가족과 함께 싱가포르 5일</span></p>
+        <p><span style="font-weight: 700;">1,549,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box3_1.jpg" />
+        <p class="box_tag">#쇼핑 3회 #시내관광</p>
+        <p><span class="box_title">[대만 첫여행 추천] 화련/시내/필수관광 꽉!채운 4일</span></p>
+        <p><span style="font-weight: 700;">707,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box4_1.jpg" />
+        <p class="box_tag">#쇼핑 3회 #시내관광</p>
+        <p><span class="box_title">[대만 첫여행 추천] 화련/시내/필수관광 꽉!채운 4일</span></p>
+        <p><span style="font-weight: 700;">707,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box1_1.jpg" />
+        <p class="box_tag">#1일자유 #핵심일정 5일</p>
+        <p><span class="box_title">[가족과함께 싱가포르] NO쇼핑 #1일자유 #핵심일정 5일</span></p>
+        <p><span style="font-weight: 700;">1,599,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box2_1.jpg" />
+        <p class="box_tag">#하루자유 #4인출발</p>
+        <p><span class="box_title">[마리나베이샌즈]가족과 함께 싱가포르 5일</span></p>
+        <p><span style="font-weight: 700;">1,549,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box3_1.jpg" />
+        <p class="box_tag">#쇼핑 3회 #시내관광</p>
+        <p><span class="box_title">[대만 첫여행 추천] 화련/시내/필수관광 꽉!채운 4일</span></p>
+        <p><span style="font-weight: 700;">707,000</span>원~</p>
+      </li>
+      <li><img src="image(jkl)/box4_1.jpg" />
+        <p class="box_tag">#쇼핑 3회 #시내관광</p>
+        <p><span class="box_title">[대만 첫여행 추천] 화련/시내/필수관광 꽉!채운 4일</span></p>
+        <p><span style="font-weight: 700;">707,000</span>원~</p>
+      </li>
+    </ul>
+
+    <script>
+      $('.bxslider').bxSlider({
+        minSlides: 3,
+        maxSlides: 4,
+        slideWidth: 300,
+        slideMargin: 10
+      });
+    </script>
+  </section>
+
+  <section id="section_four">
+    <ul class="bxslider">
+      <li><img src="image(jkl)/banner.png" /></li>
+      <li><img src="image(jkl)/banner2.png" /></li>
+    </ul>
+
+    <!-- <div class="outside">
+      <h3>This div is outside of the slider</h3>
+      <p><span id="slider-prev"></span> | <span id="slider-next"></span></p>
+    </div> -->
+    <script>
+      $('.bxslider').bxSlider({
+        nextSelector: '#slider-next',
+        prevSelector: '#slider-prev',
+        nextText: 'Onward →',
+        prevText: '← Go back'
+      });
+    </script>
+  </section>
+
+  <!-- 김정연님 파트 끝 ------------------------------------------>
+
+
+
+  <!-- 섹션 5 시작------------------------------------------------------>
+
+  <div id="tema1">
+    <div id="button1">
+      <nav>
+        <ul class="prod_ul">
+          <li class="prod_li" id="prod_global" checked>
+            <input type="radio" name="tabs" id="input_checked">
+            <label for="input_checked" class="input_radio1" style="cursor: pointer;"><i
+                class="fa-solid fa-golf-ball-tee" style="color: #43a21a;"></i> 겨울 해외골프</i></label>
+            <div id="box1" class="imgbox">
+              <div class="prod_img">
+                <img src="image(JKL)/hainan-4167789_640.jpg" alt="" class="tema1img"><br>
+                <span class="tag">골프</span>
+                <div class="name_wrap">
+                  <strong class="itms_title"> 하이난(해구) 골프텔 6박7일</strong>
+                  <p class="itms_text">#맹글로브 CC #27홀X5회 </p>
+                </div>
+                <h1>649,000원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/st-andrews-1591274_640.jpg" alt="" class="tema1img"><br>
+                <span class="tag">골프</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 파타야 골프텔 5일</strong>
+                  <p class="itms_text">#세인트앤드류스CC #36홀*4회 #4인 출발</p>
+                </div>
+                <h1> 1,798,600원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/beach-4599183_640.jpg" alt="" class="tema1img"><br>
+                <span class="tag">골프</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 클락 골프텔 7일</strong>
+                  <p class="itms_text">#레이크우드CC #36홀*5회</p>
+                </div>
+                <h1>723,400원~</h1>
+              </div>
+            </div>
+          </li>
+          <li class="prod_li" id="prod_korea" checked>
+            <input type="radio" name="tabs" id="input_checked2">
+            <label for="input_checked2" class="input_radio2" style="cursor: pointer;"><i class="fa-regular fa-sun"
+                style="color: #ee9211;"></i> 휴양지, 따뜻한 태양</i></label>
+            <div id="box2" class="imgbox">
+              <div class="prod_img">
+                <img src="image(JKL)/beach-74752_640.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 보라카이 자유여행 4일</strong>
+                  <p class="itms_text">#헤난파크 #프리미엄룸 </p>
+                </div>
+                <h1>750,000 원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/tropical-5066204_640.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 사이판 5.6일 </strong>
+                  <p class="itms_text">#월드리조트 #레이트체크아웃.</p>
+                </div>
+                <h1>1,200,000 원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/sun- phu.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 세부 5.6.7일 </strong>
+                  <p class="itms_text">#디럭스룸 #워터슬라이드.</p>
+                </div>
+                <h1>805,000 원~ </h1>
+              </div>
+            </div>
+          </li>
+          <li class="prod_li" id="prod_home" checked>
+            <input type="radio" name="tabs" id="input_checked3">
+            <label for="input_checked3" class="input_radio3" style="cursor: pointer;"><i class="fa-solid fa-holly-berry"
+                style="color: #f91706;"></i> 한 여름의 X-mas</i></label>
+            <div id="box3" class="imgbox">
+              <div class="prod_img">
+                <img src="image(JKL)/australia-1281935_640.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 시드니 6일</strong>
+                  <p class="itms_text">#전일정 4성급 호텔 ~.</p>
+                </div>
+                <h1>1,400,300 원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/parasailing-449758_640.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] #골드코스트 7.8일 </strong>
+                  <p class="itms_text">#골드코스트 헬기투어 </p>
+                </div>
+                <h1>2,570,000 원~</h1>
+              </div>
+              <div class="prod_img">
+                <img src="image(JKL)/paraglider-701440_640.jpg" alt="" class="tema1img">
+                <span class="tag">패키지</span>
+                <div class="name_wrap">
+                  <strong class="itms_title">[쿠폰 적용] 호주/뉴질랜드</strong>
+                  <p class="itms_text">#밀포드 사운드</p>
+                </div>
+                <h1>3,100,000 원 ~ </h1>
+              </div>
+            </div>
+        </ul>
+    </div>
+  </div>
+  </div>
+  <div id="tema2">
+    <div class="sliderwrap">
+      <h2>고객님만을 위한 추천여행</h2>
+      <ul class="bxslider cls000">
+        <li><img class="Rsliderimg" src="image(JKL)/taipei-taiwan-2115887_640.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">대만/야류/지우펀 4일#단수이#스펀천등날리기</p>
+            <h5 class="Rsliderh5">749,900원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/package.natrang.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">[수험 끝!] 나트랑/달랏 6일#나트랑에 가달랏#전일정5성급업그레이드</p>
+            <h5 class="Rsliderh5">759,900원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/package.kotakinabalu.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">코타키나발루 6일 #샹그릴라#탄중아루</p>
+            <h5 class="Rsliderh5">1,168,400원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/sun- phu.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">푸꾸옥 4박6일 #빈펄리조트#디럭스룸#성인2명 풀빌라UP #빈더원스#사파리투어 </p>
+            <h5 class="Rsliderh5">1,355,900원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/woman-4959896_천등.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">대만/야류/지우펀 4일#단수이#스펀천등날리기</p>
+            <h5 class="Rsliderh5">749,900원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/package.natrang.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">[수험 끝!] 나트랑/달랏 6일#나트랑에 가달랏#전일정5성급업그레이드</p>
+            <h5 class="Rsliderh5">759,900원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/package.kotakinabalu.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">코타키나발루 6일 #샹그릴라#탄중아루</p>
+            <h5 class="Rsliderh5">1,168,400원~</h5>
+          </div>
+        </li>
+        <li><img class="Rsliderimg" src="image(JKL)/sun- phu.jpg" />
+          <div class="Rsliderbox">
+            <span class="Rsliderspan"><i class="fa-solid fa-gifts" style="color: #a51fff;"></i> 패키지</span>
+            <p class="RsliderP">푸꾸옥 4박6일 #빈펄리조트#디럭스룸#성인2명 풀빌라UP #빈더원스#사파리투어 </p>
+            <h5 class="Rsliderh5">1,355,900원~</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="tema3">
+    <div class="sliderwrap">
+      <ul class="bxslider cls001">
+        <div class="color" style="background: #fae5bf; width: 1200px; height: 600px;">
+          <div class="colorleft">
+            <li><a href="#"><img class="leftimg" src="image(JKL)/africa-2785723_1280.jpg" /></a></li>
+          </div>
+          <div class="colorright">
+            <b>즐거움을 담은 특별한 여행</b>
+            <h3> JKL Original</h3>
+            <small><span>특별한 키워드를 담은 하나 Origin 상품을 만나보세요. <br>
+                #20대의 여행</span> 연령대, 관심사, 취향이 같은 또래끼리 여행을 떠나요.<br><br>
+              취미와 여행을 동시에 즐기고! <br>짧은 연차로 나를 위한 시간을 보내는, <br>하고싶은 게 많은 20대를 위한 큐레이션 </small>
+            <div class="rightbox">
+              <div class="right_box1">
+                <a href="#"><img class="right_img" src="image(JKL)/color.woong.jpg" alt=""></a>
+              </div>
+              <div class="right_box2">
+                <a href="#">
+                  <b>전문작가가 남겨주는 나의 아프리카 인생사진!</b><br>
+                  <small>케냐/탄자니아 10일 #세렝게티 #웅고롱고르 #잔지바르</small>
+                  <p>8,990,000원~</p>
+                </a>
+              </div>
+              <div class="right_box1">
+                <img class="right_img" src="image(JKL)/color.sand.jpg" alt="">
+              </div>
+              <div class="right_box2">
+                <a href="#">
+                  <b>사막 리조트에서 잠들고 아부다비 엑티비티 즐기며 플렉스!</b><br>
+                  <small>아부다비 7일 #REAL사막리조트 #페라리월드 #아부다비루브르</small>
+                  <p>4,990,000원~</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="color" style="background: #d0e8f7;  width: 1200px; height: 600px; ">
+          <div class="colorleft">
+            <li><a href="#"><img class="leftimg" src="image(JKL)/color.finland.jpg" /></a></li>
+          </div>
+          <div class="colorright">
+            <b>지속가능한 여행</b>
+            <h3>핀에어x핀란드</h3>
+            <small><span>지속가능한 미래 FINNAIR</span> 친환경 항공기 도입&지속 가능한 연료 사용<br>짧은 연차로 나를 위한 시간을 보내는, <br>
+              탄소 중립을 위한 기후 프로젝트 <br><br>
+              <span>친환경 선도국가 핀란드</span><br>
+              밤하늘에 피어오르는 환상적인 빛, 오로라헌팅 <br>지속 가능한 여행인증, 산타클로스 오피스 <br>
+              나와 지구의 건강을 생각하는 비건식 식사
+            </small>
+
+            <div class="rightbox">
+              <div class="right_box1">
+                <img class="right_img" src="image(JKL)/aurora-borealis-2959663_1280 - 복사본.jpg" alt="">
+              </div>
+              <div class="right_box2">
+                <a href="#">
+                  <b>태고의 자연을 품은 곳! 물과 얼음의 나라</b><br>
+                  <small>[지속가능한 여행, 북유럽] 아이슬란드 일주</small>
+                  <p>4,590,000원~</p>
+                </a>
+              </div>
+              <div class="right_box1">
+                <img class="right_img" src="image(JKL)/color.santa.jpg" alt="">
+              </div>
+              <div class="right_box2">
+                <a href="#">
+                  <b>동심으로의 초대"산타마을" & 글라스이글루 숙박</b><br>
+                  <small>[지속가능한 여행, 핀란드] 핀란드 북극권 오로라투어 8일</small>
+                  <p>5,790,000원~</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </ul>
+
+  </div>
+  </div>
+
+  <div id="tema4">
+    <div class="circle5">
+      <h2>내 나라 구석구석</h2>
+      <ul class="circleul">
+        <li><a href="#"><img class="circleimg" src="image(JKL)/904114_large_1698247353.jpg " alt="">
+            <h3><i class="fa-solid fa-snowflake" style="color: #639cfd;"></i>겨울, 울릉도 여행</h3>
+            <p>겨울바다와 JKL투어 단독 혜택!</p>
+          </a></li>
+        <li><a href="#"><img class="circleimg" src="image(JKL)/snowboarding-4878696_640.jpg" alt="">
+            <h3>넘버원 윈터스포츠 하이원!</h3>
+            <p>하이원 숙박+스키패키지부터<br> 렌탈&입장권까지<i class="fa-solid fa-person-skiing" style="color: #11c0b5;"></i></p>
+          </a></li>
+        <li><a href="#"><img class="blgcircle" style="width:300px; height: 300px; border-radius: 50%;"
+              src="image(JKL)/circle.korea.jpg" alt="">
+            <h1>11월의 국내여행</h1>
+            <p>럭셔리 여행<i class="fa-solid fa-star-and-crescent" style="color: #e3dc02;"></i><br>프리미엄 패키지, 자유여행, 입장권까지!</p>
+          </a></li>
+        <li><a href="#"><img class="circleimg" src="image(JKL)/circle.korea2.jpg" alt="">
+            <h3>이유 있는 선택,내나라 여행</h3>
+            <p>2007년 시작, 연간1만명의<i class="fa-solid fa-trophy" style="color: #eae206;"></i> <br> </i>고객이 선택한 고품격 국내여행 </p>
+          </a></li>
+        <li><a href="#"><img class="circleimg" src="image(JKL)/circle.jeondongjin.jpg" alt="">
+            <h3>정동진 해돋이 여행</h3>
+            <p>새해 첫 일출맞이 <i class="fa-regular fa-sun" style="color: #cf1507;"></i><br>완벽한 시작을 위한 버스 여행</p>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tema5">
+    <h1 class="tema5h1">요즘 여행의 답이 되다, JKL투어</h1>
+    <ul class="tema5_ul">
+      <li>
+        <div class="tema5_div1"><iframe class="tema5_video"
+          src="https://www.youtube.com/embed/LuOCaC1M2Ts?si=KNvByLjBMnBU-d2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </video>
+          <h3 class="tema5_h31">한 가지로 수식할 수 없는 [마카오]</h3>
+          <p class="tema5_p">유럽풍의 건축물<i class="fa-solid fa-building-columns" style="color: #f6861e;"></i><br>다양한 식문화
+            <img src="image(JKL)/food.png" alt="" class="tema5png"><br>세계 최대의 카지노 도시<i class="fa-solid fa-dice"
+              style="color: #98abc3;"></i><br>하지만 이것도 마카오의 일부일 뿐!</p>
+          <a href="#" class="tema5_a">마카오만의 VIBE를 느껴봐 > </a>
+        </div>
+      </li>
+      <li>
+        <div class="tema5_div2">
+          <h3 class="tema5_h32">TOUR&FOOD 마카오</h3>
+          <p class="tema5_p">별빛보다 화려한 야경과 세계문화유산을 품은 도시 <br>화려한 마카오 호텔 쇼와 핫플레이스 인생샷! <br> 그리고 빠질 수 없는 미식도시 마카오</p>
+          <br>
+          <a href="#" style="color: #fff;" class="tema5_a">마카오 여행 3일부터 가능 </a>
+        </div>
+      </li>
+      <li>
+        <div class="tema5_div3">
+          <img src="image(JKL)/hongkong-2669874_640.jpg" alt="" class="tema5_circle">
+          <h3 class="tema5_h31">COLORFUL CITY [홍콩]</h3>
+          <P class="tema5_p">노포의 낭만과 <br> 핫플레이스의 개성이 흐르는 홍콩 <br> #먹방 #빅토리아피크 #디즈니</P>
+
+          <a href="#" class="tema5_a">이번주 주말 홍콩어때?</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 섹션 10 끝--------------------------------------------------- -->
+
+
+
+
+  <!------------------------------------------------- 섹션 11 시작 --------------------------------------------------------------------------->
+
+
+  <div id="section_11">
+
+    <div id="section_11_box">
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/JKL투어상품권.png" alt="">
+        <div class="s11_img_txt">JKL투어상품권</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/마일리지클럽.png" alt="">
+        <div class="s11_img_txt">마일리지클럽</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/SAFETY&JOY.png" alt="">
+        <div class="s11_img_txt">SAFETY&JOY</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/JKL라이브.png" alt="">
+        <div class="s11_img_txt">JKL라이브</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/제우스.png" alt="">
+        <div class="s11_img_txt">제우스</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/맞춤여행.png" alt="">
+        <div class="s11_img_txt">맞춤여행</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/기업출장 및 단체.png" alt="">
+        <div class="s11_img_txt">기업출장/단체</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/외국인여행.png" alt="">
+        <div class="s11_img_txt">외국인여행</div>
+      </div>
+
+      <div class="s11_img_box">
+        <img src="image(JKL)/이벤트.png" alt="">
+        <div class="s11_img_txt">이벤트</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------------------------------------------- 섹션 11 끝 --------------------------------------------------------------------------->
+
+
+
+  <!------------------------------------------------- 섹션 12 시작 --------------------------------------------------------------------------->
+
+  <div id="section_12">
+
+    <div id="section_12_box">
+
+      <div id="s12_txt_box_1" class="s12_txt_box">
+
+        <h2>JKL투어닷컴</h2>
+        <h2>고객센터</h2>
+        <br>
+        <h1>1577-1233</h1>
+        <br>
+        자주 찾는 질문 ><br>
+        ARS상담번호 안내 >
+
+      </div>
+
+      <div id="s12_txt_box_2" class="s12_txt_box">
+
+        <h4>해외여행 문의</h4>
+        <p>평일/주말 : 09:00~20:00<br><br></p>
+        <h4>해외항공권 문의</h4>
+        <p>1899-1833평일 : 09:00~17:00<br>
+          (점심시간 12:00-13:00)</p><br>
+
+      </div>
+
+      <div id="s12_txt_box_3" class="s12_txt_box">
+
+        <h4>국내여행 / 항공 / 숙박 문의</h4>
+        <P>평일 : 09:00~18:00<br>
+          주말 / 공휴일 전용번호 02-2222-2525<br>
+          주말 : 10:00~16:00<br>
+          공휴일 : 10:00~14:00</P>
+        </P><br><br>
+        <h4>기업출장 / 교육여행 단체문의</h4>
+        <p>평일 : 09:00~18:00</p>
+
+      </div>
+
+      <div id="s12_txt_box_4" class="s12_txt_box">
+
+        <h4>상담번호 안내</h4>
+        <p>1번 예약상담 및 조회<br>
+          2번 마일리지, 제휴카드, 상품권 및 기타문의</p><br>
+        <h4>외국인한국여행 전용상담 02-398-6600</h4>
+        <h4>법인고객 전용상담 1566-0072</h4>
+        <h4>안심카드결제 ARS 1577-0015</h4>
+
+        <div>카드/제휴혜택</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------------------------------------------- 섹션 12 끝 --------------------------------------------------------------------------->
+
+
+
+  <!------------------------------------------------- 푸터 시작 --------------------------------------------------------------------------->
+
+  <div id="footer_1">
+
+    <div id="footer_1_box">
+
+      <div id="footer_1_left">
+
+        <div><b>공지</b></div>
+        <div id="f1_official">
+          JKL투어 ISMS 정보보호 관리체계 인증 취득
+        </div>
+        <div><span style="color: gray">더보기</span></div>
+
+      </div>
+
+      <div id="footer_1_right">
+
+        <img src="image(JKL)/페이스북.png" alt="">
+        <img src="image(JKL)/인스타그램.png" alt="">
+        <img src="image(JKL)/블로그.svg" style="width:50px; height:50px;" alt="">
+        <img src="image(JKL)/유튜브.svg" style="width:50px; height:50px;" alt="">
+        <img src="image(JKL)/카카오 스토리.png" style="width:50px; height:50px;" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="footer_2">
+
+    <div id="footer_2_box">
+
+      <div id="footer_2_left">
+
+        <br><br>
+        회사소개 | 이용약관 | <b>개인정보처리방침</b> | 여행약관 | 해외여행자보험 | 마케팅제휴 | 공식인증예약센터 검색<br><br>
+
+        <b>(주)JKL</b> | 대표 : JKL | 주소 : (123456) 뉴욕특별시 뉴욕구 뉴욕동 10길 10 스타크 빌딩<br><br>
+
+        사업자등록번호 : 333-33-33333 | <b><u>사업자정보확인</u></b> | 통신판매업신고번호 : 뉴욕33-3333호 | 관광사업자 등록번호 : 제3333-333333호<br><br>
+
+        개인정보 보호책임자 : 토니 스타크 | 영업보증보험 : 100억 가입 | 팩스: 33-333-3333 | 이메일 : <b><u>tonkstark@jkl.com</u></b><br><br>
+
+        <b>고객센터 1577-1233 해외항공권문의 1899-1833</b><br><br>
+
+        <b>※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.<br>
+          ※ 하나투어는 개별 항공권, 단품 및 일부 여행상품에 대하여 통신판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.<br><br>
+
+          COPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED</b>
+
+      </div>
+
+      <div id="footer_2_right">
+
+        <br><br>
+        <b>JKL은행 구매안전 서비스<br><br></b>
+        고객님은 안전거래를 위해 현금으로 결제시
+        (주)JKL에서 가입한 JKL은행으로
+        구매안전서비스를 이용하실 수 있습니다.<br>
+        <b><u>서비스 가입사실 확인</u></b>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="footer_3">
+
+    <div id="footer_3_box">
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award1.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award2.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award3.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award4.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award5.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award6.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award7.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+      <div class="f3_img_box">
+        <img src="image(JKL)/award8.png" alt="">
+        <div class="f3_txt">대한민국 최고의 여행사</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------------------------------------------- 푸터 끝 
+  
+  --------------------------------------------------------------------------->
+
+  <!-- 조선유님 파트 시작 ----------------------------------------------->
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/c2f1480a8b.js" crossorigin="anonymous"></script>
+  <script>
+    $('.bxslider.cls000').bxSlider({
+      minSlides: 3,
+      maxSlides: 4,
+      slideWidth: 300,
+      slideMargin: 10
+    });
+
+    $('.bxslider.cls001').bxSlider({
+      nextSelector: '#slider-next',
+      prevSelector: '#slider-prev',
+      nextText: 'Onward →',
+      prevText: '← Go back'
+    });
+  </script>
+
+
+
+
+  <script>
+    $('.bxslider.cls000').bxSlider({
+      minSlides: 3,
+      maxSlides: 4,
+      slideWidth: 300,
+      slideMargin: 10,
+    });
+
+    $('.bxslider.cls001').bxSlider({
+      nextSelector: '#slider-next',
+      prevSelector: '#slider-prev',
+      nextText: 'Onward →',
+      prevText: '← Go back'
+    });
+  </script>
+
+  <!-- 조선유님 파트 끝 ----------------------------------------------->
+
+  <!-- 김정연팀 파트 시작 --------------------------------------------->
+
+
+
+
+  <!-- 김정연팀 파트 끝 --------------------------------------------->
+
+</body>
+
+
+</html>
